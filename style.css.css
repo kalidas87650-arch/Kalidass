@@ -1,0 +1,109 @@
+nav {
+    color: black;
+    background: linear-gradient(blue, rgb(57, 213, 184));
+    border-radius: 10px;
+}
+
+ul,
+li,
+h1 {
+    display: inline-flex;
+    padding: 10px;
+    cursor: pointer;
+
+
+
+}
+
+ul,
+li {
+    position: relative;
+    left: 55%;
+    gap: 2px;
+}
+
+li:hover {
+    color: beige;
+}
+
+.one {
+
+    left: 1250px;
+    background-color: aqua;
+    border-radius: 10px;
+    position: relative;
+
+}
+
+.one:hover {
+    background: linear-gradient(dimgray, blue)
+}
+
+.images {
+    margin: 150px;
+    position: absolute;
+    right: 50px;
+
+}
+
+body {
+    background-image: url(/images/1cd6d4e6c311a73274d494e2f84437c0.jpg)
+}
+
+.intro {
+    color: aliceblue;
+    position: relative;
+    top: 200px;
+    left: 200px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.details {
+    color: aliceblue;
+    position: relative;
+    top: 200px;
+    left: 240px;
+
+}
+
+p {
+    color: aliceblue;
+    position: relative;
+    top: 200px;
+    left: 350px;
+}
+
+.two1 {
+    color: black;
+    position: relative;
+    top: 230px;
+    left: 300px;
+    background-color: aqua;
+    display: inline-block;
+    border-radius: 7px;
+    border-width: 8px;
+    border-color: rgb(3, 23, 42);
+    border-style: groove;
+
+}
+
+.two2 {
+    color: rgb(14, 2, 2);
+    position: relative;
+    top: 229px;
+    left: 350px;
+    background-color: aqua;
+    border-width: 8px;
+    border-radius: 7px;
+    border-color: rgb(3, 23, 42);
+    border-style: groove;
+    display: inline-block;
+
+
+}
+.two1:hover,
+.two2:hover {
+    cursor: pointer;
+    background: linear-gradient(dimgray, blue);
+}
